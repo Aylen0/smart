@@ -574,24 +574,24 @@ export default function AIProjectReport() {
       </div>
       <div className="results-grid">
         <div className="result-card result-green">
-          <div className="result-value">95.2%</div>
+          <div className="result-value">67%/div>
           <div className="result-label">Precisión del Modelo</div>
           <div className="result-desc">
-            Capacidad del modelo para identificar correctamente uniformes
+            Capacidad del modelo para identificar incorrectamente uniformes
           </div>
         </div>
         <div className="result-card result-blue">
-          <div className="result-value">93.8%</div>
+          <div className="result-value">62%</div>
           <div className="result-label">Recall</div>
           <div className="result-desc">
-            Proporción de casos positivos identificados correctamente
+            Proporción de casos positivos identificados incorrectamente
           </div>
         </div>
         <div className="result-card result-purple">
-          <div className="result-value">94.3%</div>
-          <div className="result-label">F1-Score</div>
+          <div className="result-value">56%</div>
+          <div className="result-label">Accuracy</div>
           <div className="result-desc">
-            Media armónica entre precisión y recall
+            Modelo funcional
           </div>
         </div>
       </div>
